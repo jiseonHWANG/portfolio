@@ -1,0 +1,192 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+.videoBox a{background: url(../images/scroll_logo\ 1.png) 50% 0% no-repeat; padding-top: 60px;}
+
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+
+/* 스크롤다운 */
+.down{display: block; font-size: 20px; position: absolute; z-index: 30;
+    left:50%; bottom: 10%;
+   animation:ani 1s infinite  alternate;}
+@keyframes ani {
+   0% { transform: translate(-50%,-50%); opacity:1; color:#fff;}
+   100% { transform: translate(-50%,-70%); opacity:0.8; color:#da292a;}
+}	
+	
+
+
+/* 영상 */
+.clip{display: grid; grid-template-columns: 1fr 1fr; 
+grid-template-areas:
+'a b'
+'c d'
+'e f'
+'g h';}
+.subTitle {
+    position: relative;
+    padding-top: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    color: #fff
+}
+
+.subTitle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 100px;
+    height: 4px;
+    margin-left: -50px;
+    background: #f2c53d
+}
+
+.clip_part {
+    /* width:50%; float: left; */
+    margin-bottom: 100px
+}
+
+
+
+.clip_part:nth-child(1){grid-area: a;}
+.clip_part:nth-child(2){grid-area: b; margin-top: 100px;}
+.clip_part:nth-child(3){grid-area: c; margin-top: 100px;}
+.clip_part:nth-child(4){grid-area: d;}
+.clip_part:nth-child(5){grid-area: e; margin-top: 100px; margin-bottom: 0;}
+.clip_part:nth-child(6){grid-area: f; margin-bottom: 0;}
+
+
+
+.clip_part .contentArea {
+    position: relative;
+    width: 96%;
+    margin: 30px auto
+}
+
+.imgPart {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.clip_part .contentArea .imgPart .popup-youtube>img {
+    width: 100%;
+    transition: all .3s;
+    border: 4px solid #fff;
+    filter: brightness(.8);
+    border: 3px solid #f2c53d;
+    /* box-shadow: 0 0 15px #f2c53d; */
+}
+
+
+.clip_part:hover .contentArea .imgPart .popup-youtube>img{
+    filter: brightness(100%);
+    transform: scale(1.06);
+    box-shadow: 0 0 25px #f2c53d;
+}
+
+.clip_part .contentArea p {
+    color: #fff;
+}
+
+.clip_part .playBnt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 110px;
+    margin: -55px 0 0 -55px;
+    border-radius: 94px;
+    background: rgba(0,0,0,.6)
+}
+
+.clip_part .imgPart:hover .playBnt {
+    background: rgba(255,0,0,.6)
+}
+
+.clip_part .playBnt img {
+    position: relative;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -20px    
+}
+
+
+#content{width:100%; margin:0; background:rgba(0,0,0,.9);position: relative;}
+#content h2{position: absolute; top: -500px;
+width: 100%; text-align: center; font-size: 4em; color: #f00;}
+
+#content section{padding: 100px 50px 25px;}
+#content section h3{font-size: 2.5rem; text-align: center; margin-bottom: 50px; font-weight: 800;    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px #F2C53D, 0 0 20px #DA292A, 0 0 40px #DA292A, 0 0 60px #F2C53D, 0 0 10px #DA292A, 0 0 98px #F2C53D;
+    color: #DA292A;}
+#content section h4{font-size: 1.5rem; text-align: center; margin-bottom: 50px; font-weight: 700; }
+#content section p{text-align: center;}
+
+.trailer_box2{display: grid; grid-template-columns: 1fr 1fr 1fr; margin-bottom: 50px    ;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:786px) {
+    
+    .clip_part {grid-template-columns: 1fr; margin-bottom: 50px;}
+    /* width:auto; float:none;} */
+    .clip{grid-template-columns: 1fr; 
+        grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f';}
+  
+    .clip_part:nth-child(2){margin-top: 50px;}
+    .clip_part:nth-child(3){margin-top: 50px;}
+    .clip_part:nth-child(5){margin-top: 50px;}
+
+    .trailer_box2{grid-template-columns: 1fr 1fr;}
+    .trailer_box2 li:nth-child(1){display: none;}
+}
+
+@media screen and (max-width:640px) {
+    .subTitle {
+        font-size: 1.5em;   
+    }
+    .trailer_box2{display: none};
+}
+
+@media screen and (max-width:480px) {
+    .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .clip_part .contentArea {
+        width: auto
+    }
+}
+

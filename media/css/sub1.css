@@ -1,0 +1,116 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+.videoBox a{background: url(../images/scroll_logo\ 1.png) 50% 0% no-repeat; padding-top: 60px;}
+
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+/* 스크롤다운 */
+.down{display: block; font-size: 20px; position: absolute; z-index: 30;
+   left:50%; bottom: 10%;
+  animation:ani 1s infinite  alternate;}
+@keyframes ani {
+  0% { transform: translate(-50%,-50%); opacity:1; color:#fff;}
+  100% { transform: translate(-50%,-70%); opacity:0.8; color:#da292a;}
+}	
+
+	
+#content{ width:100%; margin:0; background:rgba(0,0,0,.9);position: relative;  text-align: center;}
+#content h2{position: absolute; top: -500px;
+width: 100%; text-align: center; font-size: 4em; color: #fff;}
+#content h3{font-size: 2.5rem; font-weight: 800; margin-bottom: 20px; text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px #F2C53D, 0 0 20px #DA292A, 0 0 40px #DA292A, 0 0 60px #F2C53D, 0 0 10px #DA292A, 0 0 98px #F2C53D;
+  color: #DA292A;}
+
+#content .battle{background: url(../images/sub1/screenshot.jpg) no-repeat; background-size: cover; background-position: center; padding: 100px 0; background-attachment: fixed;}
+#content .battle div p{margin-bottom: 5px;}
+#content .battle ul{display: grid; margin-top: 70px; grid-template-columns: 1fr 1fr 1fr; padding: 0 100px;}
+#content .battle ul li{position: relative; transition: all .5s; border-radius: 4px; width: 92%;     border: 3px solid #fff;
+  border-radius: 30px; overflow: hidden;}
+  #content .battle ul li:hover{ box-shadow: 0 0 25px #f1d98f;}
+
+#content .battle ul li img{width: 100%; transition: all .3s; transform: scale(1.2) rotate(6deg);}
+#content .battle ul li:hover img{ transform: scale(1);}
+
+
+
+
+#content .maps{background: #0e171d; padding: 100px 0;}
+#content .maps h3{padding-top: 100px;}
+#content .maps ul{display: grid; grid-template-columns: 1fr 1fr; margin: 50px 50px 0; gap: 15px;}
+#content .maps ul li:nth-of-type(1){grid-column: 1/span 2; background: url(../images/sub1/brokenmoon.png) no-repeat; background-position: center; background-size: cover;}
+#content .maps ul li:nth-of-type(2){background: url(../images/sub1/olympus.png) no-repeat; background-position: center; background-size: cover;}
+#content .maps ul li:nth-of-type(3){background: url(../images/sub1/werldsedge.png) no-repeat; background-position: center; background-size: cover;}
+#content .maps ul li{overflow: hidden; position: relative; transition: all .5s; border-radius: 4px; outline: 4px solid rgba(0, 0, 0, .0); padding: 50px;
+}
+#content .maps ul li:hover{outline: 4px solid #f2c53d; box-shadow: 0 0 25px #f1d98f;}
+#content .maps ul li::before{content: ""; display: block; width: 50%; height: 100%; background: rgba(0,0,0,.7); position: absolute; right: 0; top:0}
+#content .maps ul li:nth-child(2)::before,#content .maps ul li:nth-child(3)::before{width: 58%;}
+
+/* #content .maps ul li::before {
+  
+  display: block;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  content: "";
+} */
+#content .maps ul li dl{width: 45%; float: right; position: relative; text-align: justify;}
+#content .maps ul li:nth-child(2) dl{padding: 50px 20px;}
+#content .maps ul li:nth-child(3) dl{padding: 50px 20px;}
+#content .maps ul li dl dt{font-size: 1.5rem; margin-bottom: 15px; font-weight: 500;}
+#content .maps ul li dl dd{margin-bottom: 20px;}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content .maps ul li:nth-child(1) dl{padding: 30px;}
+  #content .maps ul li:nth-child(2) dl{padding: 50px 15px;}
+  #content .maps ul li:nth-child(3) dl{padding: 50px 15px;}
+
+  #content .maps ul li::before{width: 58%;}
+  #content .maps ul li:nth-child(2)::before,#content .maps ul li:nth-child(3)::before{width: 65%;}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+  #content .maps ul{grid-template-columns:1fr}
+  #content .maps ul li:nth-of-type(1) {
+    grid-column: 1;
+  }
+  #content .maps ul li{padding: 10px;}
+	#content .maps ul li dl{float: none; width:auto; padding: 30px 0;}
+  #content .maps ul li::before{width: 100%;}
+  #content .maps ul li:nth-child(2)::before,#content .maps ul li:nth-child(3)::before{width: 100%;}
+#content .maps ul li dl dd {margin-bottom: 20px;padding: 0;}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+  #content .battle ul li:nth-child(1){display: none;}
+  #content .battle ul li:nth-child(2){display: none;}
+  #content .battle ul li:nth-child(3) img{transform: scale(1) rotate(0deg);}
+  
+  #content .battle ul{ grid-template-columns: 1fr;}
+  #content .battle ul li{width: 100%;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	
+}
