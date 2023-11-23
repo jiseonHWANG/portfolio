@@ -1,0 +1,27 @@
+#content5_3 .content_area5_3{padding-bottom: 100px;}
+
+#content5_3{width: 1200px; margin: 0 auto;}
+#content5_3 .title_area5_3{position: relative;}
+#content5_3 .title_area5_3 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content5_3 .animation_box{overflow: hidden;}
+#content5_3 .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content5_3 .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content5_3 .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content5_3 .animation_box p span{color: #f23f42;}
+
+#content5_3 .corruption{margin-top: 50px;}
+#content5_3 .corruption h3{font-size: 2.0em; margin: 0 0 50px 15px; position: relative;}
+#content5_3 .corruption h3::before{content: ""; width: 5px; height: 30px; background-color: #f23f42; position: absolute; top: 7px; left: -12px;}
+#content5_3 .corruption ul{}
+#content5_3 .corruption li{margin-bottom: 30px;}
+#content5_3 .corruption span{font-size: 1.375em; display: block; position: relative; font-weight: 500;}
+#content5_3 .corruption span::before{content: ""; width: 25px; height: 25px; background-color: #f23f42; position: absolute; margin-top: 2px; margin-left: -8px; border-radius: 50%; z-index: -10; opacity: 0.4;}
+#content5_3 .corruption li p{margin-top: 12px; font-size: 1.125em; text-align: justify;}
+
+#content5_3 .corruption .date{margin: 70px 0 50px 900px;}
+#content5_3 .corruption .date p:nth-child(1){font-size: 1.125em;}
+#content5_3 .corruption .date p:nth-child(2){font-size: 1.250em; font-weight: 500;}
+#content5_3 .corruption .corruption_download{margin-left: 900px; font-size: 1.150em;}

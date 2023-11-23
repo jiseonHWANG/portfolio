@@ -1,0 +1,33 @@
+#content5_1 .content_area5_1{padding-bottom: 100px;}
+
+#content5_1{width: 1200px; margin: 0 auto;}
+#content5_1 .title_area5_1{position: relative;}
+#content5_1 .title_area5_1 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content5_1 .animation_box{overflow: hidden;}
+#content5_1 .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content5_1 .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content5_1 .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content5_1 .animation_box p span{color: #f23f42;}
+
+.codeofEthics .codeofEthics_Inner{width: 1200px; text-align: center;}
+.codeofEthics .codeofEthics_Inner p:nth-child(1){font-size: 2.0em; font-weight: 500;}
+.codeofEthics .codeofEthics_Inner p:nth-child(2){font-size: 1.25em; color: #666; margin-top: 20px; font-weight: 400; margin-bottom: 50px;}
+.codeofEthics .codeofEthics_second{background: url(../images/content2/hands.jpg) no-repeat; position: relative; left: 50%; margin: 70px 0 100px -1000px; height: 300px; overflow: hidden; text-align: center;}
+.codeofEthics .codeofEthics_second .codeofEthics_second_inner{margin-left: 350px; overflow: hidden; margin-top: 50px;}
+.codeofEthics_second .codeofEthics_second_Heading{float: left; height: 300px; }
+
+.codeofEthics .codeofEthics_second p{color: #fff; font-size: 1.125em; margin-bottom: 30px; text-align: justify;}
+.codeofEthics .headingCommon{ margin-right: 30px;}
+.codeofEthics .codeofEthicsCommon{margin-bottom: 30px;}
+.codeofEthics h3{font-size: 2.0em; margin: 30px 0 20px 0; color: #f23f42;}
+.codeofEthics .codeofEthics_second h3{color: #fff; font-size: 2.0em; padding: 0 50px; margin-top: 0;}
+.codeofEthics .codeofEthics_Last dd:nth-last-of-type(1){font-weight: 600; font-size: 1.063em;}
+.codeofEthics .codeofEthics_third{border-bottom: 1px dotted #b6b4b4; padding-bottom: 30px;}
+.codeofEthics .codeofEthics_fourth{border-bottom: 1px dotted #b6b4b4; padding-bottom: 30px;}
+.codeofEthics dt{margin-right: 5px; font-size: 1.125em; font-weight: 400; margin-bottom: 5px;}
+
+.codeofEthics .codeofEthicsBox dd{position: relative; margin: 0 0 10px 30px;}
+.codeofEthics .codeofEthicsBox dd::before{content: ""; position: absolute; left: -8px; top: 12px; width: 3px; height: 3px; background: #333; border-radius: 3px;}

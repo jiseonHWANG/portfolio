@@ -1,0 +1,40 @@
+#content .content_area{padding-bottom: 100px;}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;}
+#content .title_area .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content .animation_box{overflow: hidden;}
+#content .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content .animation_box p span{color: #f23f42;}
+
+/* 팝업부분 */
+.pop .modal_box{position: fixed; left: 0; top: 0; z-index: 110; width: 100%; height: 100%; 
+    background: #000; opacity: .3; display: none;}
+.pop .pop_menu{overflow: hidden;}
+.pop .pop_menu li{float: left; width: 377px; text-align: center; padding: 10px; height: 350px;}
+.pop .pop_menu img{height: 295px;}
+.pop .pop_menu p{font-size: 1.2em; font-weight: 500;}
+
+.pop  .popup{position: fixed; top: 50%; left: 50%; margin: -300px 0 0 -300px;  opacity: 0;
+    width: 800px; height: 600px; background: #fff; box-shadow: 1px 3px 7px 0px #666;
+    z-index: 120; display:none; display: flex;}
+.pop  .popup img{height: 330px; margin:100px 3%;}
+.pop  .popup .txt{margin-top: 40px;}
+.pop  .popup .txt span{color: #f23f42; font-weight: 500;}
+.pop  .popup .txt p{font-size: 2.5em; font-weight: 600; margin-bottom: 30px;}
+/* .pop  .popup .txt{position: relative;}
+.pop  .popup dl{position: absolute; right: 15%; top: 20%;} */
+.pop  .popup dl{padding-right: 40px;}
+.pop  .popup dt{font-size: 1.2em; font-weight: bold;}
+.pop  .popup dd{margin-bottom: 30px; text-align: justify;}
+
+.pop  .popup .close_btn{position: absolute; bottom: 25px; left: 0; width: 100%; 
+    display: block;  text-align: center;
+   padding:10px;}
+
+

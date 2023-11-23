@@ -1,0 +1,38 @@
+#content5_2 .content_area5_2{padding-bottom: 100px;}
+
+#content5_2{width: 1200px; margin: 0 auto;}
+#content5_2 .title_area5_2{position: relative;}
+#content5_2 .title_area5_2 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content5_2 .animation_box{overflow: hidden;}
+#content5_2 .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content5_2 .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content5_2 .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content5_2 .animation_box p span{color: #f23f42;}
+
+#content5_2 .compliance_program{width: 2000px; height: 300px; background: url(../images/content2/cpImg.jpg) no-repeat; padding: 30px; position: relative; left: 50%; margin: 50px 0 100px -1000px;}
+#content5_2 .compliance_program div{width: 510px; margin-left: 370px; margin-top: 30px;}
+#content5_2 .compliance_program h3{font-size: 2.0em; margin-bottom: 22px;}
+#content5_2 .compliance_program p{margin-bottom: 10px; line-height: 30px; text-align: justify; font-size: 1.125em;}
+
+#content5_2 .compliance_appraisal{margin-bottom: 100px; overflow: hidden;}
+#content5_2 .compliance_appraisal ul{width: 712px; }
+#content5_2 .compliance_appraisal img{margin-left: 50px;}
+#content5_2 .compliance_appraisal h3{font-size: 2.0em; position: relative; margin-left: 12px; margin-bottom: 25px;}
+#content5_2 .compliance_appraisal h3::before{content: ""; width: 5px; height: 30px; background-color: #f23f42; position: absolute; top: 7px; left: -12px;}
+#content5_2 .compliance_appraisal li{margin-bottom: 25px; float: left;}
+#content5_2 .compliance_appraisal span{color: #f23f42; font-size: 1.250em; font-weight: 500; margin-bottom: 10px; display: block; border-bottom: 1px dotted #ccc; width: 30px;}
+#content5_2 .compliance_appraisal p{text-align: justify; line-height: 28px;}
+
+#content5_2 .compliance_element{margin-bottom: 100px;}
+#content5_2 .compliance_element h3{font-size: 1.7em; position: relative; margin-left: 12px; margin-bottom: 40px;}
+#content5_2 .compliance_element h3::before{content: ""; width: 5px; height: 30px; background-color: #f23f42; position: absolute; top: 7px; left: -12px;}
+#content5_2 .compliance_element dl{margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dotted #ccc;}
+#content5_2 .compliance_element dt{font-size: 1.250em; margin-top: 15px; font-weight: 500;}
+#content5_2 .compliance_element dd{text-align: justify; line-height: 28px; margin-left: 90px;}
+#content5_2 .dedicated_department h3{font-size: 1.7em; position: relative; margin-left: 12px; margin-bottom: 40px;}
+#content5_2 .dedicated_department h3::before{content: ""; width: 5px; height: 30px; background-color: #f23f42; position: absolute; top: 7px; left: -12px;}
+
+

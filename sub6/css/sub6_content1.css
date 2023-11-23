@@ -1,0 +1,13 @@
+#content .content_area{
+}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{overflow: hidden; position: relative; margin-bottom: 30px;}
+#content .title_area::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content .title_area .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content .title_area h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content .title_area p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content .title_area p span{color: #f23f42;}

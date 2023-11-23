@@ -1,0 +1,37 @@
+/* 오시는 길 css */
+#content .content_area{
+    height: 2000px; 
+}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{overflow: hidden; position: relative; margin-bottom: 30px;}
+#content .title_area::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content .title_area .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content .title_area h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content .title_area p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content .title_area p span{color: #f23f42;}
+
+
+.map_box{width: 1200px; margin: 0 auto;height: 1000px;overflow: hidden;}
+.map_box .tab_menu{overflow: hidden; margin: 0 auto; list-style: none; width: 900px;}
+.map_box .tab_menu li{width: 33.33%; float: left;}
+.map_box .tab_menu li a{color: #333; text-decoration: none;
+                display: block; padding: 15px 0; text-align: center; border: 1px solid #999;}
+
+
+
+.way{width: 1200px; margin: 55px 0 50px 0;}
+.way h3{font-size: 40px; text-align: center; margin-bottom: 50px;}
+.way #map1, .way #map2, .way #map3{width: 1200px; margin: 0 auto; height: 500px; border: 1px solid #999;}
+
+.way dl{overflow: hidden;}
+.way dt{float: left; font-size: 1.375em; font-weight: 700; margin-top: 60px;}
+.way dt span{font-size: 0.875em; color: #666; font-weight: 400;}
+.way dd{float: right; width: 725px; margin: 50px;}
+
+.way ul{border-left: 1px dotted #ddd; padding-left: 30px;}
+.way ul li span{float: left; font-weight: 700; font-size: 1.125em; margin-right: 60px;}
+.way ul li p{color: #777; margin-bottom: 20px;}

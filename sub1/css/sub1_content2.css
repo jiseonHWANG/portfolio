@@ -1,0 +1,68 @@
+/* 주요연혁 본문 */
+
+#content3{width: 1200px;  margin: 0 auto;}
+#content3 .title_area3{position: relative;}
+/* #content3 .title_area3::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;} */
+#content3 .title_area3 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+/* #content3 .title_area3 h2{font-size: 50px; font-weight: 700; text-align: center;
+    margin: 130px 0 20px;}
+#content3 .title_area3 p{font-size: 18px;margin-bottom: 150px; text-align: center;} */
+
+#content3 .animation_box{overflow: hidden;}
+#content3 .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content3 .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content3 .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content3 .animation_box p span{color: #f23f42;}
+
+.content_area3 .history_1897text{font-size: 1.750em; font-weight: 700; color: #f23f42; margin: 20px 0 100px 420px;}
+.historyNav{width:100%; font-size: 1.375em;}
+.historyNav ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+.historyNav ul li{width: 16%; float: left; font-size: 1em; font-weight: 600; text-align: center;  padding: 0 20px; margin: 10px 0; border-left: 1px solid #fff;}
+.historyNav ul li:nth-child(1){border-left: 0;}
+
+/* spy */
+.historyNav ul li a{color: #999;
+    display: block; font-weight: bold;
+    padding: 10px 0; transition: all .8s}
+/* .historyNav ul li:hover a{color: #333;} */
+
+.text{position: fixed; right:0; top: 0;
+    font-size: 50px; z-index: 100; color: black;}
+
+        /* 메뉴 활성화  scroll spy */
+.historyNav ul li a.spy{
+    border-bottom: 5px solid #fff;
+    border-radius: 5px;
+}
+
+
+.historyNav.navOn{position: fixed; width: 100%;top:0; left:0; z-index: 60; background: #f23f42;}
+.historyNav.navOn a{color: #fff; }
+
+.majorHistory{margin-top: 200px;}
+.majorHistoryInner1{display: flex; margin-bottom: 100px;}
+.majorHistoryInner1 .majorhistoryImg{margin-right: 100px;}
+.majorHistoryInner1 .majorhistoryImg h3{font-size: 4.375em; margin-bottom: 30px; color: #f23f42;}
+.majorHistoryInner1 .majorhistoryText{overflow: hidden;}
+.majorHistoryInner1 .majorhistoryText dl{overflow: hidden; position: relative; padding-bottom: 25px;}
+.majorHistoryInner1 .majorhistoryText dl::after{content: ""; display: block; width: 2px; height: 100%; background: #f23f42; position: absolute; top: 35px; left: 40px;}
+.majorHistoryInner1 .majorhistoryText dt{float: left; margin-left: 20px; font-weight: 700; font-size: 1.250em; color: #333;} 
+.majorHistoryInner1 .majorhistoryText dd{margin-left: 120px; font-size: 1.125em; text-align: left; display: flex;}
+.majorHistoryInner1 .majorhistoryText dd span{display: block; color: #999;}
+.majorHistoryInner1 .majorhistoryText dd p{margin-left: 20px;}
+
+.historyImg1{margin-right: 80px;}
+.historyImg1 h3{font-size: 4.375em; margin-bottom: 30px; color: #f23f42;}
+
+.historyImg2{margin-right: 100px;}
+.historyImg2 h3{font-size: 4.375em; margin-bottom: 30px; color: #f23f42;}
+
+.historyImg3{margin-right: 130px;}
+.historyImg3 h3{font-size: 4.375em; margin-bottom: 30px; color: #f23f42;}
+
+.historyImg4{margin-right: 100px;}
+.historyImg4 h3{font-size: 4.375em; margin-bottom: 30px; color: #f23f42;}

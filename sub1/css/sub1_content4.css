@@ -1,0 +1,58 @@
+/* 환경경영 본문 css */
+#content4{width: 1200px;  margin: 0 auto;}
+#content4 .title_area4{position: relative;}
+#content4 .title_area4 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content4 .animation_box{overflow: hidden;}
+#content4 .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content4 .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content4 .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content4 .animation_box p span{color: #f23f42;}
+
+.content_area4 .environment{padding-top: 50px;}
+.content_area4 .environment .environmentText{width: 2000px; height: 600px; position: relative; left: 50%; margin-left: -1000px; background: url(../images/content2/sky.jpg) 0 0 no-repeat; 
+background-attachment: fixed; background-size: cover; clear: both;}
+.content_area4 .environment .environmentText dl dt{font-weight: 700; font-size: 36px; color: #fff; text-align: center; padding: 100px 0 20px 0;}
+.content_area4 .environmentText dl dd{font-size: 1.125em; color: #fff; font-weight: 400; text-align: center;}
+.content_area4 .environmentText ul{display: flex; justify-content: center; position: relative; width: 1200px; margin: 0 auto}
+.content_area4 .environment .environmentText ul li{width: 20%;}
+.content_area4 .environment .environmentText ul li p{color: #fff; margin: 250px 0 100px; font-weight: 500; font-size: 1.250em; text-align: center;}
+.content_area4 .environment .environmentText ul li:nth-child(1){background: url(../images/content2/environmentS-ikon2.png) no-repeat; 
+background-position: center 120px;}
+.content_area4 .environment .environmentText ul li:nth-child(2){
+background: url(../images/content2/environmentS-ikon4.png) no-repeat;
+background-position: center 120px;}
+.content_area4 .environment .environmentText ul li:nth-child(3){
+background: url(../images/content2/environmentS-ikon5.png) no-repeat;
+background-position: center 120px;}
+.content_area4 .environment .environmentText ul li:nth-child(4){
+    background: url(../images/content2/environmentS-ikon1.png) no-repeat;
+    background-position: center 120px;}
+.content_area4 .environment .environmentText ul li:nth-child(5){
+    background: url(../images/content2/environmentS-ikon3.png) no-repeat;
+    background-position: center 120px;}
+
+.content_area4 .environment .environmentSection{margin-top: 100px; overflow: hidden;}
+.content_area4 .environment .environmentSection .environmentSectionBox{height: 550px;  
+background: url(../images/content2/kid.jpg), url(../images/content2/medications.jpg); background-position: 100%, 48% 299px; background-repeat: no-repeat; }
+.content_area4 .environment .environmentSection div h3{font-size: 4.063em; padding-top: 80px; margin-bottom: 20px; color: #f23f42;}
+.content_area4 .environment .environmentSection div p{font-size: 1.500em;}
+.content_area4 .environment .environmentSection div:nth-child(2){height: 500px;
+background: url(../images/content2/medications2.jpg) no-repeat; margin-left: 90px;}
+.environmentSection .environmentSection_text{text-align: left; float: right; clear: both;} 
+
+.content_area4 .environment .environmentalActivities{display: flex; }
+.content_area4 .environment .environmentalActivitiesBox h3{font-size: 1.625em; font-weight: 600; margin-bottom: 30px;}
+.content_area4 .environment .environmentalActivities dl{justify-content: center; width: 223px; margin: 0 10px 100px;}
+.content_area4 .environment .environmentalActivities dl dt{font-size: 1.250em; font-weight: 600; border-bottom: 1px solid #333; padding: 12px 0; margin-bottom: 220px;}
+.content_area4 .environment .environmentalActivities dl:nth-of-type(1){background: url(../images/content2/environment-ikon2.png)no-repeat; background-position: 25px 90px;
+    margin-left: 0; background-size: 160px;}
+.content_area4 .environment .environmentalActivities dl:nth-of-type(2){background: url(../images/content2/environment-ikon4.png)no-repeat; background-position: 25px 90px; background-size: 160px;}
+.content_area4 .environment .environmentalActivities dl:nth-of-type(3){background: url(../images/content2/environment-ikon5.png)no-repeat; background-position: 25px 90px; background-size: 160px;}
+.content_area4 .environment .environmentalActivities dl:nth-of-type(4){background: url(../images/content2/environment-ikon.png)no-repeat; background-position: 25px 90px; background-size: 160px;}
+.content_area4 .environment .environmentalActivities dl:nth-of-type(5){background: url(../images/content2/environment-ikon3.png)no-repeat; background-position: 25px 90px; background-size: 160px;}
+.content_area4 .environment .environmentalActivities dd{position: relative; padding-left: 10px; }
+.content_area4 .environment .environmentalActivities dd::before{content: ""; position: absolute; left: 0; top: 10px; width: 4px; height: 4px; border-radius: 4px; background-color: black;}
+

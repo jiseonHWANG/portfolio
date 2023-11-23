@@ -1,0 +1,36 @@
+/* ceo인사말 본문 css */
+#content .content_area{
+    height: 1100px; 
+}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{overflow: hidden; position: relative;}
+#content .title_area .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content .animation_box{overflow: hidden;}
+#content .animation_box::after{content: ""; display: block; width: 3px; height: 90px; 
+    background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content .animation_box h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content .animation_box p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content .animation_box p span{color: #f23f42;}
+
+#content .content_Inner .first{text-align: center; margin-bottom: 130px;}
+#content .content_Inner .first span{color: #ff794c; font-weight: 700; margin: 0 0 0 70px;}
+#content .content_Inner .first img{position: relative; top: 30px; right: 72px;}
+#content .content_Inner .first p{font-size: 1.750em; color: #f23f42; font-weight: 700; margin-top: 70px; margin-bottom: 100px;}
+
+#content .content_Inner .last{overflow: hidden;} 
+#content .content_Inner .last .profile{float: left; margin: 0 160px 0 70px;}
+#content .content_Inner .last .profile img{margin-bottom: 40px;}
+#content .content_Inner .last .profile p{text-align: right; color: #666;}
+#content .content_Inner .last .profile span{font-size: 1.250em; font-weight: 700; color: #333;}
+
+
+#content .content_Inner .textBox{float: right; width: 600px; text-align: justify; font-size: 1.125em;}
+#content .content_Inner .textBox p{margin-bottom: 15px;}
+#content .content_Inner .last .textBox p:nth-child(1) span{color: #f23f42; font-size: 1.875em;}
+#content .content_Inner .last .textBox p:nth-child(3) span{color: #f23f42;}
+#content .content_Inner .last .textBox p:nth-child(4){margin-top: 30px;}
+#content .content_Inner .last .textBox p:nth-child(5){margin: 80px 0 0 315px;}
+#content .content_Inner .last .textBox img{position: relative; top: -80px; left: 490px;}

@@ -1,0 +1,31 @@
+#content4_3 .content_area4_3{padding-bottom: 100px;}
+
+#content4_3{}
+#content4_3 .title_area4_3{overflow: hidden; position: relative;}
+#content4_3 .title_area4_3::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content4_3 .title_area4_3 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content4_3 .title_area4_3 h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content4_3 .title_area4_3 p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content4_3 .title_area4_3 p span{color: #f23f42;}
+
+
+#content4_3 .content_area4_3 ul{width: 1000px; height: 250px; margin: 0 auto; margin-top: 20px; overflow: hidden;}
+#content4_3 .content_area4_3 li{float: left; text-align: center; transition: all .5s; box-sizing: border-box; width: 180px; height: 180px; border-radius: 50%; margin-top: 22px; position: relative;}
+#content4_3 .content_area4_3 li p{padding-top: 70px; font-weight: 500;}
+#content4_3 .content_area4_3 ul li:nth-child(1){padding: 55px; background: url(../images/content2/document.png) no-repeat; background-size: 40%; background-position: 50% 40%; margin-left: 50px;}
+#content4_3 .content_area4_3 ul li:nth-child(2){padding: 55px; background: url(../images/content2/evaluation2.png) no-repeat; background-size: 40%; background-position: 50% 40%;}
+#content4_3 .content_area4_3 ul li:nth-child(3){padding: 55px; background: url(../images/content2/interview.png) no-repeat; background-size: 40%; background-position: 50% 40%;}
+#content4_3 .content_area4_3 ul li:nth-child(4){padding: 55px; background: url(../images/content2/interview2.png) no-repeat; background-size: 40%; background-position: 50% 40%;}
+#content4_3 .content_area4_3 ul li:nth-child(5){padding: 55px; background: url(../images/content2/owner.png) no-repeat; background-size: 40%; background-position: 50% 40%;}
+#content4_3 .content_area4_3 ul li:hover{background-color: #fee3e3; transform: translateY(-20px);}
+#content4_3 .content_area4_3 ul li::before{content: ""; display: block; position: absolute; width: 10px; height: 10px; border-top: 3px solid #f23f42; border-right: 3px solid #f23f42; transform: rotate(45deg); right: -3px; top: 80px;}
+#content4_3 .content_area4_3 ul li:last-child::before{content: ""; display: none;}
+
+#content4_3 .talentedPerson{width: 2000px; margin: 0 auto; margin-top: 70px; background: url(../images/content2/suit.jpg) no-repeat;}
+#content4_3 .talentedPerson dl{width: 765px; margin: 30px 0 40px 150px; border-bottom: 1px solid #f1f1f1; padding-bottom: 30px;}
+#content4_3 .talentedPerson dt{font-size: 1.5em; margin-bottom: 20px; color: #f23f42; font-weight: 600;}
+#content4_3 .talentedPerson dd{margin-bottom: 10px; text-align: justify; font-size: 1.125em;}
+#content4_3 .talentedPerson dl:last-of-type{border: 0;}

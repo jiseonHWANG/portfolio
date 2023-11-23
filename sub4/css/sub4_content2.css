@@ -1,0 +1,44 @@
+#content4_2 .content_area4_2{padding-bottom: 100px;}
+
+#content4_2 .title_area4_2{overflow: hidden; position: relative;}
+#content4_2 .title_area4_2::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content4_2 .title_area4_2 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content4_2 .title_area4_2 h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content4_2 .title_area4_2 p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content4_2 .title_area4_2 p span{color: #f23f42;}
+
+#content4_2 .personnelSystem{width: 1200px; margin: 0 auto;}
+#content4_2 .personnelSystem h3{font-size: 2em; text-align: center; margin-top: 50px; position: relative;}
+#content4_2 .personnelSystem h3::before{content: ""; width: 165px; height: 25px; background: #f23f42; opacity: 0.6; position: absolute; left: 517px; top: 25px; z-index: -10; display: block;}
+#content4_2 .personnelPrinciples{overflow: hidden; margin-top: 80px; display:flex; justify-content:center; width: 1200px; height: 250px;}
+#content4_2 .personnelPrinciples li{width: 250px; height: 250px; border: 1px solid #d7d7d7; border-radius: 50%; float: left; text-align: center; box-sizing: border-box; padding: 55px 0; margin: 0 10px 0; transition: all .2s;}
+#content4_2 .personnelPrinciples li:hover{border-color: #f23f42;}
+
+#content4_2 .personnelPrinciples h4{font-size: 1.6em; margin-bottom: 12px; position: relative;}
+#content4_2 .personnelPrinciples h4::before{content: ""; width: 6px; height: 6px; background: #f23f42; 
+position: absolute; left: 175px; top: 2px; border-radius: 6px;}
+
+#content4_2 .personnelPrinciples p{font-size: 1em; font-weight: 400; line-height: 28px; color: #666;}
+
+
+
+#content4_2 .system{ margin: 100px 0 50px;}
+#content4_2 .personnelmanagementSystem{width: 1900px; margin: 100px auto;}
+#content4_2 .personnelmanagementSystem h3{font-size: 2em; text-align: center; position: relative;}
+#content4_2 .personnelmanagementSystem h3::after{content:""; width: 165px; height: 25px; background: #f23f42; opacity: 0.6; position: absolute; right:869px; top: 25px; z-index: -10; display: block;}
+#content4_2 .system li{width: 100%; background: #f8f8f8; margin-bottom: 100px; } 
+#content4_2 .system img{border-radius: 10%; width: 500px; position: relative; top: -30px;}
+#content4_2 .system div{width: 1200px; margin: 0 auto; display: flex;}
+#content4_2 .system li:nth-child(2) div{flex-direction: row-reverse;}
+#content4_2 .system li:nth-child(4) div{flex-direction: row-reverse;}
+
+#content4_2 .system li:nth-child(2) dl{margin-right: 150px;}
+#content4_2 .system li:nth-child(4) dl{margin-right: 150px;}
+
+#content4_2 .system dl{width: 450px; margin: 50px 0 0 100px;}
+#content4_2 .system dt{font-size: 1.8em; margin-bottom: 14px; font-weight: 500; color: #f23f42;}
+#content4_2 .system dd{font-size: 1.22em; color: #333; position: relative; margin-left: 15px; text-align: justify; line-height: 26px; margin-bottom: 5px;}
+#content4_2 .system dd::before{content: ""; width: 3px; height: 3px; background: #666; position: absolute; left: -8px; top: 13px; border-radius: 3px;}

@@ -1,0 +1,29 @@
+#content4_1 .content_area4_1{}
+
+#content4_1{width: 1200px; margin: 0 auto;}
+#content4_1 .title_area4_1{overflow: hidden; position: relative;}
+#content4_1 .title_area4_1::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content4_1 .title_area4_1 .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content4_1 .title_area4_1 h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content4_1 .title_area4_1 p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content4_1 .title_area4_1 p span{color: #f23f42;}
+
+.content_area4_1{}
+.talentedPerson h3{font-size: 2.0em; text-align: center; margin: 50px 0 80px; position: relative;}
+.talentedPerson h3::before{content: ""; width: 185px; height: 25px; background: #f23f42; opacity: 0.6; position: absolute; left: 506px; top: 25px; z-index: -10;}
+.talentedPerson ul{overflow: hidden;}
+.talentedPerson li{width: 380px; height: 250px; float: left; padding: 170px 101px 0; margin-left: 10px;
+    border-top: 2px solid #dddddd;}
+.talentedPerson li:nth-child(1){background-image: url(../images/content2/challenge.png) ; background-repeat: no-repeat; background-position: 50% 70px;}
+.talentedPerson li:nth-child(2){background-image: url(../images/content2/creativity.png) ; background-repeat: no-repeat; background-position: 50% 70px;}
+.talentedPerson li:nth-child(3){background-image: url(../images/content2/professional.png) ; background-repeat: no-repeat; background-position: 50% 70px;}
+.talentedPerson li:nth-child(4){background-image: url(../images/content2/passion.png) ; background-repeat: no-repeat; background-position: 50% 70px;}
+.talentedPerson h4{font-size: 1.4em; text-align: center; margin-bottom: 30px; color: #f23f42;}
+.talentedPerson p{text-align: justify;}
+
+.talentedPerson_img{background: url(../images/content2/sub1img.jpg) no-repeat; width: 1200px; height: 400px; margin-bottom: 100px;}
+.talentedPerson_img p{font-size: 1.8em; text-align: center; padding-top: 15px;}
+.talentedPerson_img span{font-weight: 600; color: #f23f42;}

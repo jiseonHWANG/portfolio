@@ -1,0 +1,45 @@
+#content .content_area{
+}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{overflow: hidden; position: relative; margin-bottom: 30px;}
+#content .title_area::after{content: ""; display: block; width: 3px; height: 90px; 
+background: #f23f42; position: absolute; left: 50%; margin-left: -4px; bottom: 30px;}
+#content .title_area .line_map{position: absolute; right: 20px; top: 30px; color: #666; font-size: 16px;}
+
+#content .title_area h2{font-size: 50px; font-weight: 700; text-align: center;
+                        margin: 130px 0 20px;}
+#content .title_area p{font-size: 18px;margin-bottom: 150px; text-align: center;}
+#content .title_area p span{color: #f23f42;}
+
+#content .content_area{position: relative;}
+#content .content_area::before{content: ""; width: 140px; height: 135px; position: absolute; right: 10px; top: -20px; background: url(../images/quotationMarks.png) no-repeat; background-size: 130px;}
+#content .content_area span{display: block; position: absolute; color: #f23f42; top: 75px; right: -37px; transform: rotate(90deg); font-size: 0.8em; font-weight: 600;}
+
+#content section{margin: 80px 0; }
+#content .content_area p{font-size: 2.2em; font-weight: 600; margin-bottom: 150px; text-align: justify;}
+#content h3{font-size: 2em; position: relative; margin-bottom: 35px; left: 40px;}
+#content h3::before{content: "";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    border-top: 4px solid #f23f42;
+    border-right: 4px solid #f23f42;
+    transform: rotate(135deg);
+    left: -37px;
+    top: 10px;}
+#content section p{font-size: 1.2em; line-height: 32px;}
+#content .report_img{display: flex; justify-content: center;}
+#content .report_img li{margin: 0 15px;}
+#content .report_img p{text-align: center; font-size: 1.2em; font-weight: 500; margin-top: 20px;}
+#content .report img{width: 250px; height: 250px; border-radius: 10%;} 
+
+#content .protection ul{margin-bottom: 20px;}
+
+/* #content .protection li{position: relative;} */
+/* #content .protection li::before{content: ""; position: absolute; width: 4px; height: 4px; background: #333; left: -12px; top: 14px; border-radius: 50%;} */
+#content .protection > p{font-size: 1em; line-height: 20px; font-weight: 600; color: #333;}
+
+#content .precautions li{position: relative; left: 15px;}
+#content .precautions li::before{content: ""; position: absolute; width: 4px; height: 4px; background: #333; left: -12px; top: 14px; border-radius: 50%;}

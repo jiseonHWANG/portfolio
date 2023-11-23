@@ -1,0 +1,36 @@
+/* 윤리경영 공통 css */
+.visual{
+width: 2000px;
+height: 400px;
+position: relative;
+left: 50%;
+margin-left: -1000px;
+overflow: hidden;
+}
+.visual img{animation: visual_ani 4s ease-out forwards;}
+
+@keyframes visual_ani {from {transform: scale(1);} to {transform: scale(1.05);}}
+
+.visual span{
+display: block;
+width: 100%;
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+color: #fff;
+position: absolute;
+left: 0; top: 230px;}
+
+.sub_menu{width: 100%; border-bottom: 1px solid #ccc; font-size: 1.125em;}
+.sub_menu ul{width: 600px; margin: 0 auto; overflow: hidden;}
+.sub_menu ul li{width: 33.3%; float: left; text-align: center; position: relative;}
+.sub_menu ul li::after{content: ""; display: block; width: 2px; height: 22px;
+                        background: #bebebe; position: absolute; right: 0; top: 28px;}
+.sub_menu ul li:last-child::after{content: ""; display: none;}
+.sub_menu ul li a{padding: 25px 0; transition: all .3s;}
+.sub_menu ul li:hover a, .sub_menu ul li .current{border-bottom: 1px solid #f23f42; color: #f23f42; font-weight: 700;} 
+/* 계속 눌린 상태로 고정하는 거 current클래스 주고 앞에 , 경로 주면 됨 */
+
+
+
+
