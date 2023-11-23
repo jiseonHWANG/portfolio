@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+html{font-size:14px;}
+ body {
+ color:#333;
+ font-family:'Noto Sans KR', sans-serif; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; display: block;}
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+
+/* 전체 공통 */
+#wrap{ width:100%; position: relative;  overflow:hidden;}
+
+/* 헤더공통 */
+#headerArea{position: fixed; width: 100%; z-index: 100;}
+#headerArea .header_top h1 a{
+    background: url(../images/logo.png) no-repeat;
+    width: 125px; height: 35px;
+    text-indent: -9999px;
+    float: left;
+    margin: 10px 0 0 5px;}
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+    #headerArea .header_top h1 a 
+    {background: url("../images/logox2.png");
+    background-size: 125px 35px;}}
+
+/* 헤더 햄버거 메뉴 영역 */
+#headerArea .menu_ham {
+  float: right;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;}
+#headerArea .menu_ham span {
+  width: 20px; height: 3px;
+  background: #fff;
+  position: relative;
+  text-indent: -9999px;
+  display: block;
+  margin: 26px 15px; border-radius: 5px;
+  z-index: 30;}
+#headerArea .menu_ham span::before {
+  content: ''; display: block;
+  width: 20px; height: 3px;
+  background: #fff;
+  position: absolute; top: -7px; left: 0;
+  border-radius: 5px;}
+#headerArea .menu_ham span::after {
+  content: ''; display: block;
+  width: 20px; height: 3px;
+  background: #fff;
+  position: absolute; top: 7px; left: 0;
+  border-radius: 5px;}
+
+#headerArea.down .menu_ham span{background: #333;}  
+#headerArea.down .menu_ham span::before{content: ''; background: #333;}
+#headerArea.down .menu_ham span::after{content: ''; background: #333;}
+
+/* 메뉴가 열렸을때 (x자로 닫힘 버튼 교체) */
+#headerArea.mn_open .menu_ham span, 
+#headerArea.mn_open .menu_ham span::before, 
+#headerArea.mn_open .menu_ham span::after {
+  background: #333; transition: all .3s;}
+#headerArea.mn_open .menu_ham span {
+  background: rgba(0,0,0,0);}
+#headerArea.mn_open .menu_ham span::before {
+  transform: rotate(45deg); top: 0;}
+#headerArea.mn_open .menu_ham span::after {
+  transform: rotate(-45deg); top: 0;}
+
+/* nav 영역 */
+#headerArea .box{
+  /* 빈 박스 */
+  position: fixed; width: 100%; height: 100%;
+  left:0; top:0; 
+  background: rgba(0,0,0,.6); 
+  display: none;}
+#gnb{
+  position: absolute; 
+  width: 90%;  
+  right:-100%; top:0; 
+  opacity: 0; 
+  background: #fff;}
+#gnb .navLogo{background: url(../images/logo_black.png)no-repeat;
+width: 125px; height: 35px; text-indent: -9999px; margin: 10px 0 0 10px;}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #gnb .navLogo
+  {background: url("../images/logo_blackx2.png");
+  background-size: 125px 35px;}}
+#gnb > ul{margin-top: 30px;}
+#gnb li{
+  font-weight: 500; position: relative;}
+#gnb li h3 a{padding: 15px 30px; 
+  font-size: 1.4rem; color: #333; font-weight: 600;} 
+#gnb li a{padding: 15px 30px; 
+  font-size: 1.2rem; color: #333; font-weight: 600;} 
+  
+#gnb li a span{display: block; 
+  position: absolute; right: 35px; top: 15px;
+  color: #333;}
+#gnb li ul{background: #f6f6f6; display: none;}
+#gnb .last{border-bottom:1px solid #eee}
+
+#gnb .sns{position: relative;}
+#gnb .sns li{position: absolute;}
+/* #gnb .sns li{float: left; top: 65%;} */
+
+#gnb .sns li:nth-child(1){right: 30%;}
+#gnb .sns li:nth-child(2){right: 17%;}
+#gnb .sns li:nth-child(3){right: 2%;} 
+#gnb .sns li i{font-size: 2em;}    
+
+/* 푸터공통 */
+
+#footerArea .footer_inner{ position: relative;}
+#footerArea .footer_inner .f_logo_box{overflow: hidden;}
+#footerArea .f_logo{margin-bottom: 10px; margin-top: 5px;}
+#footerArea .f_logo img{width:156px ; height: 25px; margin-left: 15px; }
+#footerArea .f_logo_box::after{content: ""; width: 100%; height: 1px; background: #ccc; position: absolute; left: 0; top: -5px;}
+#footerArea .f_logo_box::before{content: ""; width: 100%; height: 1px; background: #ccc; position: absolute; left: 0; top: 35px;}
+
+#footerArea address{margin:10px; line-height: 1.5em;}
+#footerArea p{margin: 0 10px;}
+#footerArea .link{overflow: hidden; margin: 10px;}
+#footerArea .link li{float: left; margin-right: 10px; font-weight: bold;} 
+#footerArea .topMove{width: 50px; height: 50px; border-radius: 50%; background:#F24343 ; position: fixed; right: 10px; bottom: 50px; z-index: 50; display: none; color: #fff;
+font-weight: bold; }
+#footerArea .topMove span{display: block; text-align: center; margin-top: 13px;}
+#footerArea .footer_inner .family{ position: relative; width:100%;  background: #dfdfdf;
+  border:1px solid #ccc; font-size: 1.125em; font-weight: 500; text-align: center;margin-top: 5px;}
+  #footerArea .footer_inner .family .arrow1{display:block; font-size:1em; text-align: center; 
+  width:100%;padding: 12px 0; box-sizing: border-box; }
+  #footerArea .footer_inner .family .arrow1 i{font-size:.8em ; color: red;}
+  #footerArea .footer_inner .family .aList{ position:absolute; top:-135px; left:-1px; width:100%; background: #fff;z-index: 50; box-sizing: border-box;
+    border:1px solid #ccc; display:none}
+  #footerArea .footer_inner .family .aList li{line-height:1.5em; border-bottom:1px solid #ccc;}
+  #footerArea .footer_inner .family .aList li a{display:block;text-align: center; padding: 10px 0; transition: all 1s;}
+  #footerArea .footer_inner .family .aList li a:hover{color: #fff; background: #333;}
+
+
+
+
+

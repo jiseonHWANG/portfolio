@@ -1,0 +1,35 @@
+#content .contentinner{margin: 50px 20px 100px;}
+#content .contentinner h3{font-size: 1.5em; font-weight: 600; margin-bottom: 20px; color: #f23f42;}
+#content .contentinner section:nth-child(3) h3{color: #333;}
+#content .contentinner section{text-align: justify;}
+#content .contentinner section:nth-child(1){background: url(../images/sub1/kid.png) no-repeat,url(../images/sub1/medications2.png) no-repeat, url(../images/sub1/medications.png) no-repeat; background-position: 100% 80%, 0% 66%, 32% 99%; background-size: 60%, 40%, 35%; height: 300px; margin-bottom: 20px;}
+#content .contentinner section:nth-child(2){margin-bottom: 50px;}
+#content .contentinner section p{font-size: 1.2em;}
+
+
+/* 스와이퍼 */
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: justify;
+    }
+
+    #content .environment dl{height: 100%; width: 80%; margin: 20px 10%;
+      text-align: center;}
+    #content .environment dt{font-size: 1.2em; font-weight: 500; position: relative; top: 15px; margin-bottom: 300px;}
+
+
+    #content .environment .slide1{background: url(../images/sub1/environment_icon2.png)center no-repeat;  background-size: 65%;}
+    #content .environment .slide2{background: url(../images/sub1/environment_icon4.png)center no-repeat; background-size: 65%;}
+    #content .environment .slide3{background: url(../images/sub1/environment_icon5.png)center no-repeat; background-size: 65%;}
+    #content .environment .slide4{background: url(../images/sub1/environment_icon.png)center no-repeat; background-size: 65%;}
+    #content .environment .slide5{background: url(../images/sub1/environment_icon3.png)center no-repeat; background-size: 65%;}
+
+
+    #content .environment dd{margin-bottom: 10px; padding-left: 10px; position: relative;}
+    #content .environment dd::after{content: ""; width: 3px; height: 3px; border-radius: 50%; background: #333; position: absolute; left: 0; top: 10px;}
+
+    .swiper-button-next, .swiper-button-prev{color: red;}
+    .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background: red;}

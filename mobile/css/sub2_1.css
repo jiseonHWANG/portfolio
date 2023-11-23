@@ -1,0 +1,28 @@
+/* sub menu 2개 */
+.subNav ul li{width: 50%; float: left; text-align: center; position: relative;}
+
+#content .contentinner{margin: 50px 0 0;}
+#content .contentinner .vision{margin: 0 20px;}
+#content .contentinner .vision span{width: 80%; display: block; margin: 0 10%; position: relative; margin-bottom: 70px;}
+#content .contentinner .vision span::after{content: ""; position: absolute; left: 35%; top: 25%; width: 80%; height: 90%; background: #f23f42; z-index: -10;}
+#content .contentinner .vision img{width: 100%;}
+#content .contentinner h3{font-size: 1.5em; font-weight: 600; margin-bottom: 20px;}
+
+#content .contentinner .vision h3{position: relative;}
+#content .contentinner .vision h3::after{content: ""; position: absolute; left: 124px; top: 21px; width: 5px; height: 5px; background: #f23f42; border-radius: 50%;}
+#content .contentinner .vision p{text-align: justify; margin-bottom: 50px;}
+
+#content .contentinner .group h3{padding-top: 50px;}
+#content .contentinner .group{background: #f9f9f9; height: 800px; padding: 0 5%;}
+#content .contentinner .group div{width: 350px; margin: 0 auto;}
+#content .contentinner .group dl{position: relative; width: 100%;}
+#content .contentinner .group dt{position: relative; width: 130px; height: 130px; background: #f23f42; border-radius: 50%; left: 30%; top: 190px;}
+#content .contentinner .group dt::after{content: ""; width: 170%; height: 170%; display: block; position: absolute; border-radius: 50%; border: dotted 2px #ccc; left: -38%; top: -34%;}
+#content .contentinner .group dt p{text-align: center; font-size: 1.2em; color: #fff; margin-top: 40%; padding-top: 30%;}
+#content .contentinner .group dd{position: absolute; width: 130px; height: 130px; background: #fff; border-radius: 50%;box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1);}
+#content .contentinner .group .circle1{left: 30%; top: 30px;}
+#content .contentinner .group .circle2{left: 0%; top: 320px;}
+#content .contentinner .group .circle3{left: 60%; top: 320px;}
+
+#content .contentinner .group span{display: block; text-align: center; margin-top: 9%; color: #f23f42;}
+#content .contentinner .group p{text-align: center; font-size: .9em; margin-left: -3%; margin-top: 10%;}

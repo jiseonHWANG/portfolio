@@ -1,0 +1,20 @@
+/* sub menu 2개 */
+.subNav ul li{width: 50%; float: left; text-align: center; position: relative;}
+
+#content .contlist{margin: 50px 0;}
+#content .contlist span{float: left; display: block; font-size: 1.786em; font-weight: 700; width: 33.33%; text-align: center; color: #ff794c; }
+#content .contlist dl{margin: 0 5% 0 33.33%; padding-bottom: 20px; border-bottom: 1px solid #ccc;}
+#content .contlist dt{font-weight: 500; color: #f23f42; margin: 20px 0 5px;}
+#content .contlist dd{color: #666;}
+#content .contlist .his_last{border-bottom: none;}
+
+/* tab */
+.tabs {position:relative; overflow: hidden;} 
+.tabs a.tab {display:block; width:50%; position:absolute; text-align: center;
+          font-size: 16px; background: #fff; color: #333; font-weight: bold;padding: 10px 0; transition: all .5s; border: 1px solid #ccc; border-left: none; border-right: none;} 
+.tabs a.tab1{left:0; top:0;background: #f00; color: #fff;}
+.tabs a.tab2{left:50%; top:0}
+/* display none은 다 안보이게 만들어놓는 거임! css는선택되지 않은 컬러만 잡아주고 선택된 컬러는
+/* 스크립트에서 잡는 거임 */
+ .tabs .contlist {margin:44px 0 50px ; 
+    padding:15px;line-height:1.5em; display: none;}  

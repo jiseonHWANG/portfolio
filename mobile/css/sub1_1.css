@@ -1,0 +1,18 @@
+
+#content .content_title{text-align: center; position: relative; margin-bottom: 50px;}
+#content .content_title span{position: absolute; left: 34%; top: -25%; color: #ff794c; font-weight: 700; font-size: .8em;}
+#content .content_title p{color: #f23f42; font-weight: 500; margin-top: 20px;}
+
+#content .ceo_p{display: block; width: 55%; margin: 0 22.5% 10% 22.5%;}
+#content .ceo_p img{width: 100%;}
+
+#content .ceo_t{margin: 0 20px 100px;}
+#content .ceo_t p{margin-bottom: 15px;}
+#content .ceo_t p:nth-child(2){color: #666;}
+#content .ceo_t p:nth-child(4){margin-bottom: 40px;}
+#content .ceo_t span{color: #f23f42; font-size: 1.1em; font-weight: 500;}
+
+#content .sine_last{text-align: right; position: relative; margin-bottom: 80px;}
+#content .sine_last span{color: #333; font-size: 1.2em; margin-right: 32px;}
+
+#content .sine_last img{position: absolute; right: 0; top: 0;}

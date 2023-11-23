@@ -1,0 +1,17 @@
+#content .contentinner .research{display: block; width: 95%; margin: 2.5% 2.5%;}
+#content .contentinner .research img{width: 100%; border-radius: 5%; margin-bottom: 20px;}
+#content .contentinner span:nth-child(2){font-size: 1.1em; color: #f23f42;}
+#content .contentinner{margin: 0 20px;}
+#content .contentinner .research_text{margin-bottom: 10px; display: block; font-weight: 500;}
+#content .contentinner>div{margin-bottom: 50px;}
+#content .contentinner p{text-align: justify; margin-bottom: 5px;}
+#content .contentinner .research_p{color: #666;}
+
+#content .contentinner .research_icon{margin-bottom: 100px;}
+#content .contentinner .research_icon h4{font-size: 1.5em; font-weight: 600; margin-bottom: 20px;}
+#content .contentinner .research_icon ul{display: flex; justify-content: center; flex-wrap: wrap;}
+#content .contentinner .research_icon li{margin: 5%; width: 40%;text-align: center;}
+#content .contentinner .research_icon li img{height: 65%;}
+#content .contentinner .research_icon li p{text-align: center; margin-top: 10px; font-size: 1.1em; font-weight: 500;}
+#content .contentinner .research_icon>p{text-align: justify; margin-top: 20px;}
+#content .contentinner .research_icon>p span{color: #f23f42; font-size: 1.1em; font-weight: 500;}

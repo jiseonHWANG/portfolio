@@ -1,0 +1,10 @@
+
+.tabs {position:relative;border:1px solid #ccc; width:600px;} 
+.tabs a.tab {display:block; width:84px; position:absolute; text-align: center;
+          font-size: 16px; background: red; color: #fff; font-weight: bold;padding: 10px 0; transition: all .5s;} 
+.tabs a.tab1{left:0; top:0}
+.tabs a.tab2{left:84px; top:0}
+/* display none은 다 안보이게 만들어놓는 거임! css는선택되지 않은 컬러만 잡아주고 선택된 컬러는
+/* 스크립트에서 잡는 거임 */
+/* .tabs .contlist {margin-top:50px; display: none;
+    padding:15px;line-height:1.5em; background:#CCF}  */ */

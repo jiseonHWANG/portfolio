@@ -1,0 +1,36 @@
+/* sub menu 2개 */
+.subNav ul li{width: 50%; float: left; text-align: center; position: relative;}
+
+#content .contentinner{margin: 0 20px;}
+#content .contentinner .content_area p{font-size: 1.6em; text-align: justify; font-weight: 500;}
+#content .contentinner .content_area{background: url(../images/sub4/quotationMarks.png) right top no-repeat; background-size: 10%; margin-bottom: 50px;}
+
+#content h3{font-size: 1.5em; position: relative; margin-bottom: 35px; left: 40px; font-weight: 500;}
+#content h3::before{content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 10px;
+    border-top: 4px solid #f23f42;
+    border-right: 4px solid #f23f42;
+    transform: rotate(135deg);
+    left: -37px;
+    top: 10px;}
+   
+#content section{margin-bottom: 50px;}
+/* #content section p{line-height: 1.5em;}
+#content .report_img{display: flex; justify-content: center;}
+#content .report_img li{margin: 0 15px;}
+#content .report_img p{text-align: center; font-size: 1.2em; font-weight: 500; margin-top: 20px;}
+#content .report span{width: 80%;}
+#content .report img{width: 100%; border-radius: 10%;}  */
+
+#content .report ul{overflow: hidden;}
+#content .report ul li{float: left;width: 46%;margin: 20px 2%;}
+#content .report li p{margin: 10px; text-align: center;}
+
+#content .report img{width: 100%; border-radius: 20px;}
+
+#content .protection{margin-bottom: 100px;}
+#content .protection li{margin-bottom: 12px;}
+#content .protection > p{font-size: 1em; line-height: 20px; font-weight: 600; color: #333;}

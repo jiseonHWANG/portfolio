@@ -1,0 +1,13 @@
+#content .contentinner{margin: 0 20px;}
+#content .contentinner>div{margin-bottom: 50px;}
+#content .contentinner .pro_img{width: 100%; display: block;}
+#content .contentinner img{width: 100%;}
+#content .contentinner .pro_text_s{color: #f23f42; font-weight: 600;}
+#content .contentinner p{font-size: 2.3em; font-weight: 500; margin-bottom: 20px;}
+#content .contentinner li{margin-bottom: 20px;}
+#content .contentinner dl{overflow: hidden; width: 100%;background: #f8f8f8;
+  box-sizing: border-box;padding: 15px;border-radius: 15px;
+  box-shadow: 1px 1px 8px 1px rgba(0,0,0,.1);}
+#content .contentinner dt{float: left;font-weight: 500;width: 20%;
+ }
+#content .contentinner dd{float: right; width: 80%;  color: #666; text-align: justify;}
